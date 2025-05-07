@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScreenRevive - Laptop Screen Replacement</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Consider adding Font Awesome for icons if you want -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Screen<span>Revive</span></a>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#finder">Find Your Screen</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#" class="cart-icon">🛒<span class="cart-count">0</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content container">
+                <h1>Crystal Clear Again.</h1>
+                <p>Find the perfect replacement screen for your laptop. Fast, reliable, and high-quality.</p>
+                <a href="#finder" class="cta-button">Find My Screen Now</a>
+            </div>
+            <div class="hero-bg-overlay"></div>
+        </section>
+
+        <section id="finder" class="container section-padding">
+            <h2>Select Your Laptop</h2>
+            <p class="subtitle">Choose your brand and model to find compatible screens.</p>
+            <form class="screen-finder-form">
+                <div class="form-group">
+                    <label for="laptop-brand">Laptop Brand:</label>
+                    <select id="laptop-brand" name="laptop-brand">
+                        <option value="">-- Select Brand --</option>
+                        <option value="dell">Dell</option>
+                        <option value="hp">HP</option>
+                        <option value="lenovo">Lenovo</option>
+                        <option value="apple">Apple</option>
+                        <option value="asus">Asus</option>
+                        <option value="acer">Acer</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="laptop-model">Laptop Model:</label>
+                    <input type="text" id="laptop-model" name="laptop-model" placeholder="e.g., XPS 13, MacBook Pro 16, Spectre x360">
+                </div>
+                <button type="submit" class="cta-button">Search Screens</button>
+            </form>
+        </section>
+
+        <section id="featured" class="section-padding">
+            <div class="container">
+                <h2>Featured Screens</h2>
+                <p class="subtitle">Top-selling and newly arrived replacement screens.</p>
+                <div class="product-grid">
+                    <!-- Product Card Example 1 -->
+                    <div class="product-card">
+                        <img src="https://images.jdmagicbox.com/quickquotes/images_main/doremon-and-friends-laptop-skin-2212732850-0iu7jl4j.jpg" alt="Laptop Screen 1">
+                        <div class="product-info">
+                            <h3>Dell XPS 15 9500 UHD+ Screen</h3>
+                            <p class="product-specs">15.6" | UHD+ (3840x2400) | Touch</p>
+                            <p class="product-price">$189.99</p>
+                            <button class="cta-button add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <!-- Product Card Example 2 -->
+                    <div class="product-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNrJgGFYaC-HYfejNXU1kZnjn4LLaeGVKSvw&s" alt="Laptop Screen 2">
+                        <div class="product-info">
+                            <h3>MacBook Pro 16" A2141 LCD</h3>
+                            <p class="product-specs">16.0" | Retina (3072x1920)</p>
+                            <p class="product-price">$299.99</p>
+                            <button class="cta-button add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <!-- Product Card Example 3 -->
+                    <div class="product-card">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51B0Y5Uv2cL._SS400_.jpg" alt="Laptop Screen 3">
+                        <div class="product-info">
+                            <h3>Lenovo ThinkPad T480 FHD</h3>
+                            <p class="product-specs">14.0" | Full HD (1920x1080) | IPS</p>
+                            <p class="product-price">$99.50</p>
+                            <button class="cta-button add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                     <!-- Add more product cards as needed -->
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us" class="section-padding alt-bg">
+            <div class="container">
+                <h2>Why Choose ScreenRevive?</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <span>⭐</span>
+                        <h3>Quality Guaranteed</h3>
+                        <p>Only A+ grade screens, rigorously tested for perfection.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span>🚚</span>
+                        <h3>Fast Shipping</h3>
+                        <p>Get your screen delivered quickly to your doorstep.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span>🛠️</span>
+                        <h3>Expert Support</h3>
+                        <p>Our team is ready to help you find the right screen.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container section-padding">
+            <h2>Get In Touch</h2>
+            <p class="subtitle">Have questions or need help? Contact us!</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 ScreenRevive. All Rights Reserved. | Design by AI & You</p>
+            <div class="social-links">
+                <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
